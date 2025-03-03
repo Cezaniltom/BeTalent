@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- links de estilização css -->
+    <!-- CSS styling links -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
 
-    <!--Fonts-->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900,500&display=swap" rel="stylesheet">
 
-
+    <!-- Page title -->
     <title>BeTalent</title>
 </head>
 <body>
     <header class="header">
         <img src="assets/img/Logo.svg" alt="Logo image">
     </header>
-    <nav>
+    <main class="navigation">
         <section>
-            <span>
+            <aside class="employees-search">
                 <h2>Funcionários</h2>
-                <input type="search" placeholder="Pesquisar">
-            </span>
+                <aside class="search-img">
+                    <input type="text" placeholder="Pesquisar">
+                    <img src="assets/img/search.svg" alt="magnifying glass">
+                </aside>
+            </aside>
         </section>
-        <main>
+        <nav>
             <table>
                 <thead>
                     <th>Foto</th>
@@ -44,7 +47,7 @@
                     <td>Item</td>
                 </tbody>
             </table>
-        </main>
-    </nav>
+        </nav>
+    </main>
 </body>
 </html>

@@ -10,8 +10,21 @@ html {
     -webkit-text-size-adjust: 100%; /* Evita zoom automático em dispositivos móveis */
 }
 
+:root {
+    --blue-primary: #0500FF;
+    --blue-10: #EDEFFB;
+    --black: #1C1C1C;
+    --gray-20: #9E9E9E;
+    --gray-10: #DFDFDF;
+    --gray-05: #F5F5F5;
+    --gray-00: #F0F0F0;
+    --white: #FFFFFF;
+}
+
 body {
     background-color: #F0F0F0;
     width: 100vw;
     height: 100vh;
 }
+
+

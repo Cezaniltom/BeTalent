@@ -1,8 +1,42 @@
 .header {
     padding: 10px;
-    background: #FFFFFF;
+    background: var(--gray-00);
     height: 3.5rem;
     display: flex;
     box-shadow: 0px 2px 8px -4px rgba(0,0,0,0.75);
 }
 
+.navigation {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+.employees-search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.search-img {
+    width: 287px;
+    height: 48px;
+    background-color: var(--white);
+    border: 1px solid var(--gray-10);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+input {
+    width: 500px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding-left: 1rem;
+}
