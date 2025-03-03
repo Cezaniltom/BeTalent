@@ -9,3 +9,7 @@ html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%; /* Evita zoom automático em dispositivos móveis */
 }
+
+body {
+    background-color: #F0F0F0;
+}
